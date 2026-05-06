@@ -1,0 +1,142 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.carousel img {
+    border-radius: 15px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.miras-hero {
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                url("https://picsum.photos/1200/400?historical");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.miras-hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.anime-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.hobi-img {
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.slider-img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+}
+
+.mke-hero {
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+                url("../img/mke-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
+.mke-hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.miras-img {
+    height: 230px;
+    object-fit: cover;
+}
+/* GENEL SAYFA GÖRÜNÜMÜ */
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.navbar a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffc107 !important;
+}
+
+/* KARTLAR */
+.card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18) !important;
+}
+
+/* BUTONLAR */
+.btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+/* ANA BAŞLIKLAR */
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 60px;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+}
